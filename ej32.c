@@ -9,9 +9,6 @@ grados Celsius son 212 grados Fahrenheit.  */
 float convertofarhenheit(float grados);
 
 
-float convertofarhenheit(float grados){
-    return (grados * 9/5) + 32;
-}
 
 int main(){
     float grados;
@@ -20,4 +17,7 @@ int main(){
     fahrenheit = convertofarhenheit(grados);
     printf("%f grados Celsius son %f grados Fahrenheit",grados,fahrenheit);
 }
- 
+
+float convertofarhenheit(float grados){
+    return (grados * 9/5) + 32;
+}
