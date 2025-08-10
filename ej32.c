@@ -1,23 +1,15 @@
-/* 33- Escribir el algoritmo que me permita leer un número decimal que representa una
-cantidad de grados Celsius y convierta dicho valor a la cantidad equivalente en
-grados Fahrenheit. La salida del programa puede ser de la siguiente forma: 100
-grados Celsius son 212 grados Fahrenheit.  */
 
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-float convertofarhenheit(float grados);
+/* - Hacer el algoritmo que nos permita introducir un número por teclado y nos informe si es
+par o impar.
+ */
 
+ #include <stdio.h>
+ int main(){
+    int a = 0;
+    printf("\nInsert a number to calculate if it is even or odd\n");
 
-
-int main(){
-    float grados;
-    float fahrenheit;
-    scanf("%f",&grados);
-    fahrenheit = convertofarhenheit(grados);
-    printf("%f grados Celsius son %f grados Fahrenheit",grados,fahrenheit);
-}
-
-float convertofarhenheit(float grados){
-    return (grados * 9/5) + 32;
-}
+    scanf("%d",&a);
+    
+    a%2 == 0 ? printf("Your number is even") : printf("Your number is odd"); 
+    
+ }
