@@ -4,7 +4,5 @@
         "windows.h": "c",
         "stdlib.h": "c",
         "time.h": "c",
-        "68.C": "cpp",
-        "72.C": "cpp"
     }
 }
