@@ -4,5 +4,6 @@
         "windows.h": "c",
         "stdlib.h": "c",
         "time.h": "c",
+        "stdint.h": "c"
     }
 }
